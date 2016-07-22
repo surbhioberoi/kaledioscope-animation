@@ -1,7 +1,7 @@
 body {
 	background-color: #B5B5B5;
-	animation: wall 10s infinite ease-in-out;
 	overflow: hidden;
+	animation: wall 10s infinite ease-in-out;
 }
 
 .container {
@@ -32,29 +32,29 @@ body {
 	0% {
 		transform: rotate(360deg);
   		background: #F76D3C;
-  }
+     	}
 
   	25% {
   		transform: rotate(240deg);
   		background: #98CB4A;
-  }
+  	}
 
   	50% { 
 		transform: rotate(180deg);
 		background: #2CA8C2; 
-	}
+  	}
 	
 	75% {
 		transform: rotate(90deg);
 		background: #913CCD; 
 
-	}
+  	}
 
 	100% {
 		transform: rotate(45deg);
 		background: #F7D842;
 
-	}	
+  	}	
 }
 
 @keyframes wall {
