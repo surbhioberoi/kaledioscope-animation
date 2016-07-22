@@ -1,16 +1,14 @@
 body {
 	background-color: #B5B5B5;
 	overflow: hidden;
-<<<<<<< HEAD
 	-webkit-animation: wall 10s infinite ease-in-out;
 	        animation: wall 10s infinite ease-in-out;
-=======
 	animation: wall 10s infinite ease-in-out;
->>>>>>> 28e81f185b3eaf63cbb1295619bcfbadb6682961
+
 }
 
 .container {
-	height: 500px;
+    height: 500px;
     width: 500px;
     position: absolute;
     top: 40%;
@@ -73,11 +71,9 @@ body {
 		-webkit-transform: rotate(360deg);
 		        transform: rotate(360deg);
   		background: #F76D3C;
-<<<<<<< HEAD
   	}
-=======
+
      	}
->>>>>>> 28e81f185b3eaf63cbb1295619bcfbadb6682961
 
   	25% {
   		-webkit-transform: rotate(240deg);
