@@ -1,6 +1,7 @@
 body {
 	background-color: #B5B5B5;
 	animation: wall 10s infinite ease-in-out;
+	overflow: hidden;
 }
 
 .container {
