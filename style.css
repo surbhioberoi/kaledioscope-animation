@@ -1,8 +1,12 @@
 body {
 	background-color: #B5B5B5;
 	overflow: hidden;
+<<<<<<< HEAD
 	-webkit-animation: wall 10s infinite ease-in-out;
 	        animation: wall 10s infinite ease-in-out;
+=======
+	animation: wall 10s infinite ease-in-out;
+>>>>>>> 28e81f185b3eaf63cbb1295619bcfbadb6682961
 }
 
 .container {
@@ -69,7 +73,11 @@ body {
 		-webkit-transform: rotate(360deg);
 		        transform: rotate(360deg);
   		background: #F76D3C;
+<<<<<<< HEAD
   	}
+=======
+     	}
+>>>>>>> 28e81f185b3eaf63cbb1295619bcfbadb6682961
 
   	25% {
   		-webkit-transform: rotate(240deg);
@@ -81,21 +89,21 @@ body {
 		-webkit-transform: rotate(180deg); 
 		        transform: rotate(180deg);
 		background: #2CA8C2; 
-	}
+  	}
 	
 	75% {
 		-webkit-transform: rotate(90deg);
 		        transform: rotate(90deg);
 		background: #913CCD; 
 
-	}
+  	}
 
 	100% {
 		-webkit-transform: rotate(45deg);
 		        transform: rotate(45deg);
 		background: #F7D842;
 
-	}	
+  	}	
 }
 
 @-webkit-keyframes wall {
