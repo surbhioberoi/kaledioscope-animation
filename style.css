@@ -1,7 +1,8 @@
 body {
 	background-color: #B5B5B5;
-	animation: wall 10s infinite ease-in-out;
 	overflow: hidden;
+	-webkit-animation: wall 10s infinite ease-in-out;
+	        animation: wall 10s infinite ease-in-out;
 }
 
 .container {
@@ -25,36 +26,90 @@ body {
 
 .fill { 
   background: #F76D3C;  
-  animation: rotate 10s infinite ease-in-out; 
+  -webkit-animation: rotate 10s infinite ease-in-out;  
+          animation: rotate 10s infinite ease-in-out; 
 }
 
-@keyframes rotate{
+@-webkit-keyframes rotate{
 	0% {
-		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
   		background: #F76D3C;
-  }
+  	}
 
   	25% {
-  		transform: rotate(240deg);
+  		-webkit-transform: rotate(240deg);
+  		        transform: rotate(240deg);
   		background: #98CB4A;
-  }
+  	}
 
   	50% { 
-		transform: rotate(180deg);
+		-webkit-transform: rotate(180deg); 
+		        transform: rotate(180deg);
 		background: #2CA8C2; 
 	}
 	
 	75% {
-		transform: rotate(90deg);
+		-webkit-transform: rotate(90deg);
+		        transform: rotate(90deg);
 		background: #913CCD; 
 
 	}
 
 	100% {
-		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		        transform: rotate(45deg);
 		background: #F7D842;
 
 	}	
+}
+
+@keyframes rotate{
+	0% {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+  		background: #F76D3C;
+  	}
+
+  	25% {
+  		-webkit-transform: rotate(240deg);
+  		        transform: rotate(240deg);
+  		background: #98CB4A;
+  	}
+
+  	50% { 
+		-webkit-transform: rotate(180deg); 
+		        transform: rotate(180deg);
+		background: #2CA8C2; 
+	}
+	
+	75% {
+		-webkit-transform: rotate(90deg);
+		        transform: rotate(90deg);
+		background: #913CCD; 
+
+	}
+
+	100% {
+		-webkit-transform: rotate(45deg);
+		        transform: rotate(45deg);
+		background: #F7D842;
+
+	}	
+}
+
+@-webkit-keyframes wall {
+	0% {
+		background-color: #B5B5B5;
+	}
+
+	50% {
+		background-color: #828282;
+	}
+
+	100% {
+		background-color: #363636;
+	}
 }
 
 @keyframes wall {
